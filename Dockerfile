@@ -1,7 +1,7 @@
-FROM node:8-slim
+FROM node:12.18.2-stretch-slim
 MAINTAINER Steven Bower <steven@purse.io>
 
-ENV BCOIN_VERSION=v1.0.0-beta.15 \
+ENV BCOIN_VERSION=v2.1.2 \
     BCOIN_REPO=https://github.com/bcoin-org/bcoin.git \
     BCOIN_DIR=/code/bcoin
 
